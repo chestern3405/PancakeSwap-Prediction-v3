@@ -1,17 +1,17 @@
 {
-  "name": "pcs-prediction-bot",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "name": "pancakeswap-prediction-v3",
+  "version": "0.0.1",
+  "description": "Newer version of the previous bot which can now analyze data from TradingView and bet accordingly on PancakeSwap Prediction.",
+  "author": "AvalerionHF",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "cg": "ts-node ./src/candle-genie.ts",
     "test": "jest"
   },
   "bin": {
-    "pcspredictionbot": "src/index.js"
+    "ppv3": "src/index.js"
   },
   "dependencies": {
     "chalk": "^4.1.2",
