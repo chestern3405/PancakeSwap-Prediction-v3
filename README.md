@@ -3,7 +3,7 @@
 
 ![PancakeSwap-Logo-Big](https://user-images.githubusercontent.com/37302442/142642313-475cd6f8-0050-4925-8604-0c0370b0a69c.png)
 
-This bot fetches the overall consensus of the 5min and 1min BNB/USDT charts based on a number of TA signals provided by Trading View. It determines if the consensus is a BUY or SELL prior to each prediction round and places the bet on PancakeSwap or CandleGenie accordingly.
+This bot wins the majority of rounds on PancakeSwap & CandleGenie based on both market conditions, and the strategy chosen.
 
 If you found this helpful then you can buy me a coffee at `0x1c423F7dc5d63F9355caCC540AEDB69d27A31f3b`.
 
@@ -54,9 +54,7 @@ RPC="https://bsc-dataseed.binance.org/"
 Note: This is not production ready script so please make sure to change ``to:`` field in ``src/index.ts`` and ``src/candle-genie.ts``.
 
 ## 🧑‍🎨 Strategies
-- Default Strategy: Bets against what the majority of money is betting on. It generally aims for the higher payout bet. Better for sideways trends where its harder for the majority of people to bet correctly & confidently.
-
-- `--with` Strategy: Bets with what the majority of money is betting on. It generally aims to follow the lower payout bet. Better for swinging trends where its easier for the majority of people to bet correctly & confidently.
+- This bot fetches the overall consensus of the 5min and 1min BNB/USDT charts based on a number of TA signals provided by Trading View. It determines if the consensus is a BUY or SELL prior to each prediction round and places the bet on PancakeSwap or CandleGenie accordingly.
 
 ### Using CandleGenie? 
 If you want to play with Candle Genie instead of Pancake, start the bot with `npm run cg` or `yarn cg`
