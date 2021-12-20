@@ -19,7 +19,8 @@
     "ethers": "^5.4.7",
     "ora": "^5.4.1",
     "trading-view-recommends-parser-nodejs": "^1.0.2",
-    "tslib": "^2.3.1"
+    "tslib": "^2.3.1",
+    "web3": "^1.6.1"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
